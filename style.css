@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B);
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', 'sans-serif';
+}
+body {
+
+height: 100vh;
+   background-image: linear-gradient(90deg, #0f114f, #21297e, #203fda); 
+}
+.container{
+display: flex;
+flex-direction: column;
+height: 100vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.background {
+display: flex;
+flex-direction: column;
+background-color: rgb(255, 255, 255);
+align-items: center;
+border-radius: 10px;
+padding: 25px 40px;
+gap: 20px;
+}
+.txtheader{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.txtfooter {
+   
+text-align: center;
+
+}
+.txtsection {
+    
+text-align: center;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+padding-top: 10px;
+padding-left: 10px;
+}
+.text-clima {
+  font-size: 30px;  
+}
+#inputp {
+    padding-top: 5px;
+    cursor: pointer;
+    padding-left: 0.5px;
+    font-size: 19px;
+
+}
+#txtinp {
+text-align: center; 
+font-size: 13px;
+height: 30px;
+border: none;
+border: 1.5px solid black;
+}
+input { 
+
+    border: none; 
+
+    background-color: transparent; 
+
+    width: 200px; 
+
+    font-size: 15px; 
+
+} 
+
+input:focus { 
+
+outline: none; 
+
+}
+.txtnum {
+        font-size: 55px;
+    }
+    .container-temp {
+        display: flex;
+        justify-content: center;
+    }
+    h2:after { 
+       
+
+        Content: " " ;
+        
+        Background: rgb(0, 0, 0) ;
+        
+        Height: 1.5px  ;
+        
+        Width: 102% ;
+        
+        Display:block ;
+        
+        Margin: 0 auto; 
+        
+        Transition: 0.50s 
+        
+        } 
+        .txtnum:hover {
+        transform: scale(1.3);
+        }
+        .txterror {
+        color: white;
+        height: 20px;
+        width: 200px;
+        font-size: 11px;
+        background-color: rgb(157, 0, 0);
+        }
+        #inputp:hover {
+        background-color: gray;
+        border-radius: 8px;
+        }
+        .custom-loader {
+            width:25px;
+            height:25px;
+            border-radius:50%;
+            background:conic-gradient(#0000 10%,#766DF4);
+            -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 4px),#000 0);
+            animation:s3 0.5s infinite linear;
+          }
+          @keyframes s3 {to{transform: rotate(1turn)}}
+          .container-img img {
+            width: 80px;
+          }
+          p {
+            opacity: 90%;
+            padding-top: 10px;
+            color: azure;
+            font-size: 10px;
+          }
