@@ -3,7 +3,6 @@ Projeto de clima tempo para ver a temperatura e outras informaçoes sobre o clim
 
 
 
-
 ## Funcionalidades
 
 - Infomações do clima
