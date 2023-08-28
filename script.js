@@ -12,7 +12,6 @@ const section = document.querySelector(".txtsection");
 const footer = document.querySelector(".txtfooter");
 const txterror = document.querySelector(".txterror");
 const loader = document.querySelector(".loader");
-contente;
 
 const api = {
   key: "272f221fb07fce7e948e9d68d1a0f99b",
