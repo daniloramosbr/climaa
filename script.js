@@ -15,7 +15,7 @@ const loader = document.querySelector(".loader");
 
 const api = {
   key: "272f221fb07fce7e948e9d68d1a0f99b",
-  base: "http://api.openweathermap.org/data/2.5/",
+  base: "https://api.openweathermap.org/data/2.5/",
   lang: "pt_br",
   units: "metric",
 };
