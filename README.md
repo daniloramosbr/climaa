@@ -1,7 +1,7 @@
 # Clima Tempo
 Projeto front-end de clima tempo para ver a temperatura e outras informaçoes sobre o clima.
 
-<img src="/public/clima.png" alt="url">
+<img src="/img/clima.png" alt="url">
 
 ## Funcionalidades
 
